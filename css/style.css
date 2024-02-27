@@ -1,20 +1,23 @@
 @import url(style.css);
 *{
-
     margin: 0;
 }
 header{
     height: 100vh;
     width: 100vw;    
-    background-image: url(../storage/img/placeYourImageHere0.png);
+    background: url(../storage/img/placeYourImageHere0.png);
     background-size: 100%;
+    position: relative;
+}
+nav, section{
+    position: relative;
+    z-index: 2;
 }
 .filter{
+    top: 0;
     height: 100vh;
     width: 100vw;
-    content: "";
     position: absolute;
-    z-index: -10;
-    background: rgba(0, 0, 0, 0.211);
-    filter: blur(6px);
+    z-index: 1;
+    background: rgba(0, 0, 0, 0.3);
 }
