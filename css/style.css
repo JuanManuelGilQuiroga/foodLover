@@ -2,9 +2,9 @@
 @import url(variables.css);
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
 *{
+    border: 1px blue solid;
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
-    border: 1px solid red;
 }
 header{
     height: 100vh;
@@ -66,8 +66,8 @@ nav, section{
     padding: 0;
 }
 .waffle{
-    width: 800px;
-    height: 600px;
+    width: 50rem;
+    height: 37.5rem;
     padding-left: 5vw;
     margin: 0;
 }
@@ -119,10 +119,27 @@ main{
     width: 100vw;
     height: 100vh;
     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.divImgSection1{
+    border: 10px green solid;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    height: 70vh;
+    width: 30vw;
 }
 .imageSection1{
-    width: 30vw;
-    height: 45vh;
+    object-fit: fill;
+}
+.articleSection1{
+    display: flex;
+    flex-direction: column;
+    height: 70vh;
+    justify-content: space-evenly;
+    margin-left: 2vw;
 }
 .section1Title{
     color: var(--color-font);
@@ -130,8 +147,7 @@ main{
     font-optical-sizing: auto;
     font-weight: 800;
     font-style: normal;
-    font-size: 5vh;
-    outline: 1px solid green;
+    font-size: 7vh;
 }
 .section1P{
     color: var(--color-font);
@@ -139,6 +155,6 @@ main{
     font-optical-sizing: auto;
     font-weight: 500;
     font-style: normal;
-    font-size: 2vh;
+    font-size: 3vh;
     width: 30vw;
 }
