@@ -3,6 +3,7 @@
     --color-secundary: #17171e;
     --color-ternario: #323239;
     --color-font: #fff;
+    --color-banner: rgba(50, 50, 57, 0.25);
     --font-title: "Roboto Slab", serif;
     --font-weight-title: "ExtraBold", 800;
 }
