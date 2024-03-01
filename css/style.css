@@ -274,3 +274,75 @@ main{
     align-items: center;
     background: rgba(0, 0, 0, 0.3);
 }
+/*/AQUI EMPIEZA EL SECTION5/*/
+.section5{
+    height: 140vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.section5Title{
+    color: var(--color-font);
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 7vh;
+    margin-bottom: 5vh;
+    text-align: center;
+}
+.menuFood{
+    outline: 1px solid green;
+    display: flex;
+    justify-content: space-between;
+    width: 90vw;
+    height: 100vh;
+}
+.section5T{
+    color: var(--color-primary);
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 3.8vh;
+    margin-bottom: 5vh;
+}
+.section5P{
+    color: var(--color-font);
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2vh;
+    width: 29vw;
+    margin-bottom: 5vh;
+    border: 1px red solid;
+}
+.imgSection5{
+    height: 50vh;
+    width: 29vw;
+}
+.italianSM{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.italian{
+    height: 30vh;
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.price{
+    color: var(--color-primary);
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 3vh;
+    margin-top: 0;
+    margin-bottom: 5vh;
+    border: 1px solid grey;
+}
