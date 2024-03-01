@@ -216,10 +216,61 @@ main{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    outline: 3px solid green;
     overflow: auto;
 }
 .articleSection3 > img{
     margin: 1rem;
     height: 64vh;
+}
+/*/AQUI EMPIEZA EL SECTION4/*/
+.section4{
+    height: 140vh;  
+    z-index: 1; 
+    background-image: url(../storage/img/placeYourImageHereOur0.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.centeredBox{
+    height: 80vh;
+    width: 45vw;
+    border: 1rem var(--color-primary) solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    z-index: 10;
+}
+.section4Title{
+    color: var(--color-font);
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 7vh;
+    margin-bottom: 5vh;
+    text-align: center;
+}
+.section4P{
+    color: var(--color-font);
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 3vh;
+    width: 30vw;
+    text-align: center;
+}
+.filterSection4{
+    position: absolute;
+    height: 80vh;
+    width: 45vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.3);
 }
